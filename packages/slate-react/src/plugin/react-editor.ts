@@ -1,4 +1,12 @@
-import { Editor, Node, Path, Point, Range, Transforms, Descendant } from '@naripok/slate'
+import {
+  Editor,
+  Node,
+  Path,
+  Point,
+  Range,
+  Transforms,
+  Descendant,
+} from '@naripok/slate'
 
 import { Key } from '../utils/key'
 import {
