@@ -8,7 +8,7 @@ import {
   Text,
   Transforms,
   Path,
-} from 'slate'
+} from '@naripok/slate'
 import throttle from 'lodash/throttle'
 import scrollIntoView from 'scroll-into-view-if-needed'
 

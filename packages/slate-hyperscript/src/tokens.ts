@@ -1,4 +1,4 @@
-import { Node, Path, Text } from 'slate'
+import { Node, Path, Text } from '@naripok/slate'
 
 /**
  * A weak map to hold anchor tokens.

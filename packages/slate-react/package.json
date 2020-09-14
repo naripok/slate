@@ -30,13 +30,13 @@
     "scroll-into-view-if-needed": "^2.2.20"
   },
   "devDependencies": {
-    "slate": "^0.58.4",
-    "slate-hyperscript": "^0.58.4"
+    "@naripok/slate": "^0.58.5",
+    "@naripok/slate-hyperscript": "^0.58.5"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "slate": ">=0.55.0"
+    "@naripok/slate": ">=0.58.5"
   },
   "umdGlobals": {
     "react": "React",

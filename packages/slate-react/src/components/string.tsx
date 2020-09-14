@@ -1,5 +1,5 @@
 import React from 'react'
-import { Editor, Text, Path, Element, Node } from 'slate'
+import { Editor, Text, Path, Element, Node } from '@naripok/slate'
 
 import { ReactEditor, useEditor } from '..'
 
