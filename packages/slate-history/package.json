@@ -1,5 +1,5 @@
 {
-  "name": "slate-history",
+  "name": "@naripok/slate-history",
   "description": "An operation-based history implementation for Slate editors.",
   "version": "0.58.4",
   "license": "MIT",

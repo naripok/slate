@@ -23,7 +23,7 @@ function configure(pkg, env, target) {
   const isUmd = target === 'umd'
   const isModule = target === 'module'
   const isCommonJs = target === 'cjs'
-  const input = `packages/${pkg.name}/src/index.ts`
+  const input = `packages/${pkg.name.replace(/@naripok\//, '')}/src/index.ts`
   const deps = []
     .concat(pkg.dependencies ? Object.keys(pkg.dependencies) : [])
     .concat(pkg.peerDependencies ? Object.keys(pkg.peerDependencies) : [])
@@ -44,7 +44,10 @@ function configure(pkg, env, target) {
 
     typescript({
       abortOnError: false,
-      tsconfig: `./packages/${pkg.name}/tsconfig.json`,
+      tsconfig: `./packages/${pkg.name.replace(
+        /@naripok\//,
+        ''
+      )}/tsconfig.json`,
       // COMPAT: Without this flag sometimes the declarations are not updated.
       // clean: isProd ? true : false,
       clean: true,
@@ -53,7 +56,7 @@ function configure(pkg, env, target) {
     // Allow Rollup to resolve CommonJS modules, since it only resolves ES2015
     // modules by default.
     commonjs({
-      exclude: [`packages/${pkg.name}/src/**`],
+      exclude: [`packages/${pkg.name.replace(/@naripok\//, '')}/src/**`],
       // HACK: Sometimes the CommonJS plugin can't identify named exports, so
       // we have to manually specify named exports here for them to work.
       // https://github.com/rollup/rollup-plugin-commonjs#custom-named-exports
@@ -79,7 +82,7 @@ function configure(pkg, env, target) {
     // Use Babel to transpile the result, limiting it to the source code.
     babel({
       runtimeHelpers: true,
-      include: [`packages/${pkg.name}/src/**`],
+      include: [`packages/${pkg.name.replace(/@naripok\//, '')}/src/**`],
       extensions: ['.js', '.ts', '.tsx'],
       presets: [
         '@babel/preset-typescript',
@@ -129,9 +132,11 @@ function configure(pkg, env, target) {
       onwarn,
       output: {
         format: 'umd',
-        file: `packages/${pkg.name}/${isProd ? pkg.umdMin : pkg.umd}`,
+        file: `packages/${pkg.name.replace(/@naripok\//, '')}/${
+          isProd ? pkg.umdMin : pkg.umd
+        }`,
         exports: 'named',
-        name: startCase(pkg.name).replace(/ /g, ''),
+        name: startCase(pkg.name.replace(/@naripok\//, '')).replace(/ /g, ''),
         globals: pkg.umdGlobals,
       },
       external: Object.keys(pkg.umdGlobals || {}),
@@ -145,7 +150,7 @@ function configure(pkg, env, target) {
       onwarn,
       output: [
         {
-          file: `packages/${pkg.name}/${pkg.main}`,
+          file: `packages/${pkg.name.replace(/@naripok\//, '')}/${pkg.main}`,
           format: 'cjs',
           exports: 'named',
           sourcemap: true,
@@ -167,7 +172,7 @@ function configure(pkg, env, target) {
       onwarn,
       output: [
         {
-          file: `packages/${pkg.name}/${pkg.module}`,
+          file: `packages/${pkg.name.replace(/@naripok\//, '')}/${pkg.module}`,
           format: 'es',
           sourcemap: true,
         },

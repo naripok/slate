@@ -85,6 +85,10 @@
     "slate-history": "*",
     "slate-hyperscript": "*",
     "slate-react": "*",
+    "@naripok/slate": "*",
+    "@naripok/slate-history": "*",
+    "@naripok/slate-hyperscript": "*",
+    "@naripok/slate-react": "*",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.7.2"
   }

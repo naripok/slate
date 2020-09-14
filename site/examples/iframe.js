@@ -1,9 +1,15 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import { createPortal } from 'react-dom'
 import isHotkey from 'is-hotkey'
-import { Editable, withReact, useSlate, Slate, ReactEditor } from 'slate-react'
-import { Editor, createEditor } from 'slate'
-import { withHistory } from 'slate-history'
+import {
+  Editable,
+  withReact,
+  useSlate,
+  Slate,
+  ReactEditor,
+} from '@naripok/slate-react'
+import { Editor, createEditor } from '@naripok/slate'
+import { withHistory } from '@naripok/slate-history'
 
 import { Button, Icon, Toolbar } from '../components'
 
