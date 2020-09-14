@@ -1,7 +1,7 @@
 {
   "name": "@naripok/slate-react",
   "description": "Tools for building completely customizable richtext editors with React.",
-  "version": "0.58.5",
+  "version": "0.58.6",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,12 +31,12 @@
   },
   "devDependencies": {
     "@naripok/slate": "^0.58.5",
-    "@naripok/slate-hyperscript": "^0.58.5"
+    "@naripok/slate-hyperscript": "^0.58.6"
   },
   "peerDependencies": {
+    "@naripok/slate": ">=0.58.5",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
-    "@naripok/slate": ">=0.58.5"
+    "react-dom": ">=16.8.0"
   },
   "umdGlobals": {
     "react": "React",

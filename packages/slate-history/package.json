@@ -1,7 +1,7 @@
 {
   "name": "@naripok/slate-history",
   "description": "An operation-based history implementation for Slate editors.",
-  "version": "0.58.5",
+  "version": "0.58.6",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@naripok/slate": "^0.58.5",
-    "@naripok/slate-hyperscript": "^0.58.5"
+    "@naripok/slate-hyperscript": "^0.58.6"
   },
   "peerDependencies": {
     "@naripok/slate": ">=0.58.5"
