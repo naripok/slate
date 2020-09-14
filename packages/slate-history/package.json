@@ -3,7 +3,14 @@
   "description": "An operation-based history implementation for Slate editors.",
   "version": "0.58.4",
   "license": "MIT",
-  "repository": "git://github.com/naripok/slate.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naripok/slate.git",
+    "directory": "packages/slate-history"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
