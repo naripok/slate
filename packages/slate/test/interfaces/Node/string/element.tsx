@@ -1,6 +1,6 @@
 /** @jsx jsx  */
-import { Node } from 'slate'
-import { jsx } from 'slate-hyperscript'
+import { Node } from '@naripok/slate'
+import { jsx } from '@naripok/slate-hyperscript'
 
 export const input = (
   <element>

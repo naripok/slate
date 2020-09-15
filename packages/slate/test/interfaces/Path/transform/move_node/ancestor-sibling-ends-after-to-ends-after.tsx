@@ -1,4 +1,4 @@
-import { Path } from 'slate'
+import { Path } from '@naripok/slate'
 
 const path = [3, 3, 3]
 const op = {

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { createHyperscript } from 'slate-hyperscript'
+import { createHyperscript } from '@naripok/slate-hyperscript'
 
 const jsx = createHyperscript({
   elements: {

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
-import { Node, createEditor } from 'slate'
-import { Slate, Editable, withReact } from 'slate-react'
-import { withHistory } from 'slate-history'
+import { Node, createEditor } from '@naripok/slate'
+import { Slate, Editable, withReact } from '@naripok/slate-react'
+import { withHistory } from '@naripok/slate-history'
 
 const PlainTextExample = () => {
   const [value, setValue] = useState<Node[]>(initialValue)

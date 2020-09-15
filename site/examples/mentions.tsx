@@ -1,6 +1,6 @@
 import React, { useMemo, useCallback, useRef, useEffect, useState } from 'react'
-import { Node, Editor, Transforms, Range, createEditor } from 'slate'
-import { withHistory } from 'slate-history'
+import { Node, Editor, Transforms, Range, createEditor } from '@naripok/slate'
+import { withHistory } from '@naripok/slate-history'
 import {
   Slate,
   Editable,
@@ -8,7 +8,7 @@ import {
   withReact,
   useSelected,
   useFocused,
-} from 'slate-react'
+} from '@naripok/slate-react'
 
 import { Portal } from '../components'
 

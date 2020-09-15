@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Transforms, createEditor, Node } from 'slate'
+import { Transforms, createEditor, Node } from '@naripok/slate'
 import {
   Slate,
   Editable,
@@ -8,7 +8,7 @@ import {
   ReactEditor,
   useFocused,
   useSelected,
-} from 'slate-react'
+} from '@naripok/slate-react'
 
 const EmbedsExample = () => {
   const [value, setValue] = useState<Node[]>(initialValue)

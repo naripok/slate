@@ -1,4 +1,4 @@
-import { Node } from 'slate'
+import { Node } from '@naripok/slate'
 
 export const input = {
   children: [],

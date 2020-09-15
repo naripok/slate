@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
-import { Transforms, createEditor, Node } from 'slate'
-import { Slate, Editable, useEditor, withReact } from 'slate-react'
-import { withHistory } from 'slate-history'
+import { Transforms, createEditor, Node } from '@naripok/slate'
+import { Slate, Editable, useEditor, withReact } from '@naripok/slate-react'
+import { withHistory } from '@naripok/slate-history'
 import { css } from 'emotion'
 
 import RichTextEditor from './richtext'

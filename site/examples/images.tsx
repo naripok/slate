@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import imageExtensions from 'image-extensions'
 import isUrl from 'is-url'
-import { Node, Transforms, createEditor } from 'slate'
+import { Node, Transforms, createEditor } from '@naripok/slate'
 import {
   Slate,
   Editable,
@@ -9,8 +9,8 @@ import {
   useSelected,
   useFocused,
   withReact,
-} from 'slate-react'
-import { withHistory } from 'slate-history'
+} from '@naripok/slate-react'
+import { withHistory } from '@naripok/slate-history'
 import { css } from 'emotion'
 
 import { Button, Icon, Toolbar } from '../components'

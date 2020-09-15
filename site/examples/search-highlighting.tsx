@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react'
-import { Slate, Editable, withReact } from 'slate-react'
-import { Text, Node, createEditor } from 'slate'
+import { Slate, Editable, withReact } from '@naripok/slate-react'
+import { Text, Node, createEditor } from '@naripok/slate'
 import { css } from 'emotion'
 import { withHistory } from 'slate-history'
 

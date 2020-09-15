@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback } from 'react'
 import faker from 'faker'
-import { createEditor } from 'slate'
-import { Slate, Editable, withReact } from 'slate-react'
+import { createEditor } from '@naripok/slate'
+import { Slate, Editable, withReact } from '@naripok/slate-react'
 
 const HEADINGS = 100
 const PARAGRAPHS = 7

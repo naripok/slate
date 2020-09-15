@@ -1,4 +1,4 @@
-import { Path } from 'slate'
+import { Path } from '@naripok/slate'
 
 export const input = true
 export const test = path => {

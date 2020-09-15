@@ -1,8 +1,8 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import isHotkey from 'is-hotkey'
-import { Editable, withReact, useSlate, Slate } from 'slate-react'
-import { Editor, Transforms, createEditor, Node } from 'slate'
-import { withHistory } from 'slate-history'
+import { Editable, withReact, useSlate, Slate } from '@naripok/slate-react'
+import { Editor, Transforms, createEditor, Node } from '@naripok/slate'
+import { withHistory } from '@naripok/slate-history'
 
 import { Button, Icon, Toolbar } from '../components'
 

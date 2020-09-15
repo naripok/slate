@@ -1,4 +1,4 @@
-import { Text } from 'slate'
+import { Text } from '@naripok/slate'
 
 export const input = {
   text: '',

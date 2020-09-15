@@ -1,11 +1,17 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react'
-import { Slate, Editable, ReactEditor, withReact, useSlate } from 'slate-react'
-import { Editor, Transforms, Text, createEditor, Node } from 'slate'
+import {
+  Slate,
+  Editable,
+  ReactEditor,
+  withReact,
+  useSlate,
+} from '@naripok/slate-react'
+import { Editor, Transforms, Text, createEditor, Node } from '@naripok/slate'
 import { css } from 'emotion'
-import { withHistory } from 'slate-history'
+import { withHistory } from '@naripok/slate-history'
 
 import { Button, Icon, Menu, Portal } from '../components'
-import { Range } from 'slate'
+import { Range } from '@naripok/slate'
 
 const HoveringMenuExample = () => {
   const [value, setValue] = useState<Node[]>(initialValue)

@@ -6,10 +6,17 @@ import {
   useEditor,
   useReadOnly,
   ReactEditor,
-} from 'slate-react'
-import { Node, Editor, Transforms, Range, Point, createEditor } from 'slate'
+} from '@naripok/slate-react'
+import {
+  Node,
+  Editor,
+  Transforms,
+  Range,
+  Point,
+  createEditor,
+} from '@naripok/slate'
 import { css } from 'emotion'
-import { withHistory } from 'slate-history'
+import { withHistory } from '@naripok/slate-history'
 
 const CheckListsExample = () => {
   const [value, setValue] = useState<Node[]>(initialValue)

@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react'
 import isUrl from 'is-url'
-import { Slate, Editable, withReact, useSlate } from 'slate-react'
-import { Node, Transforms, Editor, Range, createEditor } from 'slate'
-import { withHistory } from 'slate-history'
+import { Slate, Editable, withReact, useSlate } from '@naripok/slate-react'
+import { Node, Transforms, Editor, Range, createEditor } from '@naripok/slate'
+import { withHistory } from '@naripok/slate-history'
 
 import { Button, Icon, Toolbar } from '../components'
 

@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @naripok/slate-react
 
-
-
-
-
 ## 0.58.5 (2020-09-14)
 
 ### Bug Fixes

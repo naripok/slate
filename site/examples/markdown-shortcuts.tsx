@@ -1,7 +1,14 @@
 import React, { useState, useCallback, useMemo } from 'react'
-import { Slate, Editable, withReact } from 'slate-react'
-import { Node, Editor, Transforms, Range, Point, createEditor } from 'slate'
-import { withHistory } from 'slate-history'
+import { Slate, Editable, withReact } from '@naripok/slate-react'
+import {
+  Node,
+  Editor,
+  Transforms,
+  Range,
+  Point,
+  createEditor,
+} from '@naripok/slate'
+import { withHistory } from '@naripok/slate-history'
 
 const SHORTCUTS = {
   '*': 'list-item',
