@@ -27,7 +27,7 @@
     "@naripok/slate": "^0.58.6"
   },
   "peerDependencies": {
-    "@naripok/slate": ">=0.58.5"
+    "@naripok/slate": ">=0.58.6"
   },
   "umdGlobals": {
     "slate": "Slate"
