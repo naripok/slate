@@ -1,6 +1,6 @@
 # slate-plugins core
 
-See [README](https://github.com/udecode/slate-plugins).
+See [README](https://github.com/naripok/slate-plugins).
 
 ## License
 

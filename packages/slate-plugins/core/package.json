@@ -1,15 +1,15 @@
 {
-  "name": "@udecode/slate-plugins-core",
+  "name": "@naripok/slate-plugins-core",
   "version": "0.66.8",
   "description": "Slate plugins core",
   "keywords": [],
-  "homepage": "https://github.com/udecode/slate-plugins/tree/master/packages/core#readme",
+  "homepage": "https://github.com/naripok/slate-plugins/tree/master/packages/core#readme",
   "bugs": {
-    "url": "https://github.com/udecode/slate-plugins/issues"
+    "url": "https://github.com/naripok/slate-plugins/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/udecode/slate-plugins.git"
+    "url": "https://github.com/naripok/slate-plugins.git"
   },
   "license": "MIT",
   "main": "dist/index.js",
