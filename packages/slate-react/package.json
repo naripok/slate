@@ -34,7 +34,7 @@
     "@naripok/slate-hyperscript": "^0.58.7"
   },
   "peerDependencies": {
-    "@naripok/slate": ">=0.58.5",
+    "@naripok/slate": ">=0.58.6",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
   },

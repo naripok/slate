@@ -1,33 +1,57 @@
 {
   "name": "@naripok/slate-plugins",
-  "version": "0.66.8",
-  "description": "Slate plugins core",
-  "keywords": [],
-  "homepage": "https://github.com/naripok/slate-plugins/tree/master/packages/core#readme",
-  "bugs": {
-    "url": "https://github.com/naripok/slate-plugins/issues"
-  },
+  "description": "Tools for building completely customizable richtext editors with React.",
+  "version": "0.58.7",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/naripok/slate-plugins.git",
+    "url": "git://github.com/naripok/slate.git",
     "directory": "packages/slate-plugins"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "umd": "dist/slate-plugins.js",
+  "umdMin": "dist/slate-plugins.min.js",
+  "sideEffects": false,
   "files": [
     "dist/"
   ],
   "peerDependencies": {
-    "react": ">=16.13.1",
-    "react-dom": ">=16.13.1",
     "@naripok/slate": "*",
-    "@naripok/slate-hyperscript": "*",
     "@naripok/slate-react": "*",
-    "@naripok/slate-history": "*"
-  }
+    "@naripok/slate-history": "*",
+    "@naripok/slate-hyperscript": "*",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "umdGlobals": {
+    "react": "React",
+    "slate": "Slate"
+  },
+  "keywords": [
+    "canvas",
+    "contenteditable",
+    "docs",
+    "document",
+    "edit",
+    "editor",
+    "editable",
+    "html",
+    "immutable",
+    "markdown",
+    "medium",
+    "paper",
+    "react",
+    "rich",
+    "richtext",
+    "richtext",
+    "slate",
+    "text",
+    "wysiwyg",
+    "wysiwym"
+  ]
 }
