@@ -2,7 +2,8 @@
   "private": true,
   "name": "slate-packages",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/slate-plugins/*"
   ],
   "scripts": {
     "build": "yarn build:rollup && yarn build:next",
