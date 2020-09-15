@@ -1,23 +1,23 @@
-export function pipe<T0>(x0: T0): T0;
-export function pipe<T0, T1>(x0: T0, f1?: (x: T0) => T1): T1;
+export function pipe<T0>(x0: T0): T0
+export function pipe<T0, T1>(x0: T0, f1?: (x: T0) => T1): T1
 export function pipe<T0, T1, T2>(
   x0: T0,
   f1?: (x: T0) => T1,
   f2?: (x: T1) => T2
-): T2;
+): T2
 export function pipe<T0, T1, T2, T3>(
   x0: T0,
   f1?: (x: T0) => T1,
   f2?: (x: T1) => T2,
   f3?: (x: T2) => T3
-): T3;
+): T3
 export function pipe<T0, T1, T2, T3, T4>(
   x0: T0,
   f1?: (x: T0) => T1,
   f2?: (x: T1) => T2,
   f3?: (x: T2) => T3,
   f4?: (x: T3) => T4
-): T4;
+): T4
 export function pipe<T0, T1, T2, T3, T4, T5>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -25,7 +25,7 @@ export function pipe<T0, T1, T2, T3, T4, T5>(
   f3?: (x: T2) => T3,
   f4?: (x: T3) => T4,
   f5?: (x: T4) => T5
-): T5;
+): T5
 export function pipe<T0, T1, T2, T3, T4, T5, T6>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -34,7 +34,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6>(
   f4?: (x: T3) => T4,
   f5?: (x: T4) => T5,
   f6?: (x: T5) => T6
-): T6;
+): T6
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -44,7 +44,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7>(
   f5?: (x: T4) => T5,
   f6?: (x: T5) => T6,
   f7?: (x: T6) => T7
-): T7;
+): T7
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -55,7 +55,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8>(
   f6?: (x: T5) => T6,
   f7?: (x: T6) => T7,
   f8?: (x: T7) => T8
-): T8;
+): T8
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -67,7 +67,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9>(
   f7?: (x: T6) => T7,
   f8?: (x: T7) => T8,
   f9?: (x: T8) => T9
-): T9;
+): T9
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -80,7 +80,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(
   f8?: (x: T7) => T8,
   f9?: (x: T8) => T9,
   f10?: (x: T9) => T10
-): T10;
+): T10
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -94,7 +94,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(
   f9?: (x: T8) => T9,
   f10?: (x: T9) => T10,
   f11?: (x: T10) => T11
-): T11;
+): T11
 export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(
   x0: T0,
   f1?: (x: T0) => T1,
@@ -109,7 +109,7 @@ export function pipe<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(
   f10?: (x: T9) => T10,
   f11?: (x: T10) => T11,
   f12?: (x: T11) => T12
-): T12;
+): T12
 export function pipe<
   T0,
   T1,
@@ -140,7 +140,7 @@ export function pipe<
   f11?: (x: T10) => T11,
   f12?: (x: T11) => T12,
   f13?: (x: T12) => T13
-): T13;
+): T13
 export function pipe<
   T0,
   T1,
@@ -173,7 +173,7 @@ export function pipe<
   f12?: (x: T11) => T12,
   f13?: (x: T12) => T13,
   f14?: (x: T13) => T14
-): T14;
+): T14
 export function pipe<
   T0,
   T1,
@@ -208,7 +208,7 @@ export function pipe<
   f13?: (x: T12) => T13,
   f14?: (x: T13) => T14,
   f15?: (x: T14) => T15
-): T15;
+): T15
 export function pipe<
   T0,
   T1,
@@ -245,7 +245,7 @@ export function pipe<
   f14?: (x: T13) => T14,
   f15?: (x: T14) => T15,
   f16?: (x: T15) => T16
-): T16;
+): T16
 export function pipe<
   T0,
   T1,
@@ -284,7 +284,7 @@ export function pipe<
   f15?: (x: T14) => T15,
   f16?: (x: T15) => T16,
   f17?: (x: T16) => T17
-): T17;
+): T17
 export function pipe<
   T0,
   T1,
@@ -325,7 +325,7 @@ export function pipe<
   f16?: (x: T15) => T16,
   f17?: (x: T16) => T17,
   f18?: (x: T17) => T18
-): T18;
+): T18
 export function pipe<
   T0,
   T1,
@@ -368,7 +368,7 @@ export function pipe<
   f17?: (x: T16) => T17,
   f18?: (x: T17) => T18,
   f19?: (x: T18) => T19
-): T19;
+): T19
 export function pipe<
   T0,
   T1,
@@ -413,7 +413,7 @@ export function pipe<
   f18?: (x: T17) => T18,
   f19?: (x: T18) => T19,
   f20?: (x: T19) => T20
-): T20;
+): T20
 export function pipe<
   T0,
   T1,
@@ -460,7 +460,7 @@ export function pipe<
   f19?: (x: T18) => T19,
   f20?: (x: T19) => T20,
   f21?: (x: T20) => T21
-): T21;
+): T21
 export function pipe<
   T0,
   T1,
@@ -509,7 +509,7 @@ export function pipe<
   f20?: (x: T19) => T20,
   f21?: (x: T20) => T21,
   f22?: (x: T21) => T22
-): T22;
+): T22
 export function pipe<
   T0,
   T1,
@@ -560,7 +560,7 @@ export function pipe<
   f21?: (x: T20) => T21,
   f22?: (x: T21) => T22,
   f23?: (x: T22) => T23
-): T23;
+): T23
 export function pipe<
   T0,
   T1,
@@ -613,7 +613,7 @@ export function pipe<
   f22?: (x: T21) => T22,
   f23?: (x: T22) => T23,
   f24?: (x: T23) => T24
-): T24;
+): T24
 export function pipe<
   T0,
   T1,
@@ -668,7 +668,7 @@ export function pipe<
   f23?: (x: T22) => T23,
   f24?: (x: T23) => T24,
   f25?: (x: T24) => T25
-): T25;
+): T25
 export function pipe<
   T0,
   T1,
@@ -725,7 +725,7 @@ export function pipe<
   f24?: (x: T23) => T24,
   f25?: (x: T24) => T25,
   f26?: (x: T25) => T26
-): T26;
+): T26
 export function pipe<
   T0,
   T1,
@@ -784,7 +784,7 @@ export function pipe<
   f25?: (x: T24) => T25,
   f26?: (x: T25) => T26,
   f27?: (x: T26) => T27
-): T27;
+): T27
 export function pipe<
   T0,
   T1,
@@ -845,7 +845,7 @@ export function pipe<
   f26?: (x: T25) => T26,
   f27?: (x: T26) => T27,
   f28?: (x: T27) => T28
-): T28;
+): T28
 export function pipe<
   T0,
   T1,
@@ -908,7 +908,7 @@ export function pipe<
   f27?: (x: T26) => T27,
   f28?: (x: T27) => T28,
   f29?: (x: T28) => T29
-): T29;
+): T29
 export function pipe<
   T0,
   T1,
@@ -973,7 +973,7 @@ export function pipe<
   f28?: (x: T27) => T28,
   f29?: (x: T28) => T29,
   f30?: (x: T29) => T30
-): T30;
+): T30
 export function pipe<
   T0,
   T1,
@@ -1040,7 +1040,7 @@ export function pipe<
   f29?: (x: T28) => T29,
   f30?: (x: T29) => T30,
   f31?: (x: T30) => T31
-): T31;
+): T31
 export function pipe<
   T0,
   T1,
@@ -1109,7 +1109,7 @@ export function pipe<
   f30?: (x: T29) => T30,
   f31?: (x: T30) => T31,
   f32?: (x: T31) => T32
-): T32;
+): T32
 export function pipe<
   T0,
   T1,
@@ -1180,7 +1180,7 @@ export function pipe<
   f31?: (x: T30) => T31,
   f32?: (x: T31) => T32,
   f33?: (x: T32) => T33
-): T33;
+): T33
 export function pipe<
   T0,
   T1,
@@ -1253,7 +1253,7 @@ export function pipe<
   f32?: (x: T31) => T32,
   f33?: (x: T32) => T33,
   f34?: (x: T33) => T34
-): T34;
+): T34
 export function pipe<
   T0,
   T1,
@@ -1328,7 +1328,7 @@ export function pipe<
   f33?: (x: T32) => T33,
   f34?: (x: T33) => T34,
   f35?: (x: T34) => T35
-): T35;
+): T35
 export function pipe<
   T0,
   T1,
@@ -1405,7 +1405,7 @@ export function pipe<
   f34?: (x: T33) => T34,
   f35?: (x: T34) => T35,
   f36?: (x: T35) => T36
-): T36;
+): T36
 export function pipe<
   T0,
   T1,
@@ -1484,7 +1484,7 @@ export function pipe<
   f35?: (x: T34) => T35,
   f36?: (x: T35) => T36,
   f37?: (x: T36) => T37
-): T37;
+): T37
 export function pipe<
   T0,
   T1,
@@ -1565,7 +1565,7 @@ export function pipe<
   f36?: (x: T35) => T36,
   f37?: (x: T36) => T37,
   f38?: (x: T37) => T38
-): T38;
+): T38
 export function pipe<
   T0,
   T1,
@@ -1648,7 +1648,7 @@ export function pipe<
   f37?: (x: T36) => T37,
   f38?: (x: T37) => T38,
   f39?: (x: T38) => T39
-): T39;
+): T39
 export function pipe<
   T0,
   T1,
@@ -1733,7 +1733,7 @@ export function pipe<
   f38?: (x: T37) => T38,
   f39?: (x: T38) => T39,
   f40?: (x: T39) => T40
-): T40;
+): T40
 export function pipe<
   T0,
   T1,
@@ -1820,7 +1820,7 @@ export function pipe<
   f39?: (x: T38) => T39,
   f40?: (x: T39) => T40,
   f41?: (x: T40) => T41
-): T41;
+): T41
 export function pipe<
   T0,
   T1,
@@ -1909,7 +1909,7 @@ export function pipe<
   f40?: (x: T39) => T40,
   f41?: (x: T40) => T41,
   f42?: (x: T41) => T42
-): T42;
+): T42
 export function pipe<
   T0,
   T1,
@@ -2000,7 +2000,7 @@ export function pipe<
   f41?: (x: T40) => T41,
   f42?: (x: T41) => T42,
   f43?: (x: T42) => T43
-): T43;
+): T43
 export function pipe<
   T0,
   T1,
@@ -2093,7 +2093,7 @@ export function pipe<
   f42?: (x: T41) => T42,
   f43?: (x: T42) => T43,
   f44?: (x: T43) => T44
-): T44;
+): T44
 export function pipe<
   T0,
   T1,
@@ -2188,7 +2188,7 @@ export function pipe<
   f43?: (x: T42) => T43,
   f44?: (x: T43) => T44,
   f45?: (x: T44) => T45
-): T45;
+): T45
 export function pipe<
   T0,
   T1,
@@ -2285,7 +2285,7 @@ export function pipe<
   f44?: (x: T43) => T44,
   f45?: (x: T44) => T45,
   f46?: (x: T45) => T46
-): T46;
+): T46
 export function pipe<
   T0,
   T1,
@@ -2384,7 +2384,7 @@ export function pipe<
   f45?: (x: T44) => T45,
   f46?: (x: T45) => T46,
   f47?: (x: T46) => T47
-): T47;
+): T47
 export function pipe<
   T0,
   T1,
@@ -2485,7 +2485,7 @@ export function pipe<
   f46?: (x: T45) => T46,
   f47?: (x: T46) => T47,
   f48?: (x: T47) => T48
-): T48;
+): T48
 export function pipe<
   T0,
   T1,
@@ -2588,7 +2588,7 @@ export function pipe<
   f47?: (x: T46) => T47,
   f48?: (x: T47) => T48,
   f49?: (x: T48) => T49
-): T49;
+): T49
 export function pipe<
   T0,
   T1,
@@ -2693,7 +2693,7 @@ export function pipe<
   f48?: (x: T47) => T48,
   f49?: (x: T48) => T49,
   f50?: (x: T49) => T50
-): T50;
+): T50
 export function pipe<
   T0,
   T1,
@@ -2800,7 +2800,7 @@ export function pipe<
   f49?: (x: T48) => T49,
   f50?: (x: T49) => T50,
   f51?: (x: T50) => T51
-): T51;
+): T51
 export function pipe<
   T0,
   T1,
@@ -2909,7 +2909,7 @@ export function pipe<
   f50?: (x: T49) => T50,
   f51?: (x: T50) => T51,
   f52?: (x: T51) => T52
-): T52;
+): T52
 export function pipe<
   T0,
   T1,
@@ -3020,7 +3020,7 @@ export function pipe<
   f51?: (x: T50) => T51,
   f52?: (x: T51) => T52,
   f53?: (x: T52) => T53
-): T53;
+): T53
 export function pipe<
   T0,
   T1,
@@ -3133,7 +3133,7 @@ export function pipe<
   f52?: (x: T51) => T52,
   f53?: (x: T52) => T53,
   f54?: (x: T53) => T54
-): T54;
+): T54
 export function pipe<
   T0,
   T1,
@@ -3248,7 +3248,7 @@ export function pipe<
   f53?: (x: T52) => T53,
   f54?: (x: T53) => T54,
   f55?: (x: T54) => T55
-): T55;
+): T55
 export function pipe<
   T0,
   T1,
@@ -3365,7 +3365,7 @@ export function pipe<
   f54?: (x: T53) => T54,
   f55?: (x: T54) => T55,
   f56?: (x: T55) => T56
-): T56;
+): T56
 export function pipe<
   T0,
   T1,
@@ -3484,7 +3484,7 @@ export function pipe<
   f55?: (x: T54) => T55,
   f56?: (x: T55) => T56,
   f57?: (x: T56) => T57
-): T57;
+): T57
 export function pipe<
   T0,
   T1,
@@ -3605,7 +3605,7 @@ export function pipe<
   f56?: (x: T55) => T56,
   f57?: (x: T56) => T57,
   f58?: (x: T57) => T58
-): T58;
+): T58
 export function pipe<
   T0,
   T1,
@@ -3728,7 +3728,7 @@ export function pipe<
   f57?: (x: T56) => T57,
   f58?: (x: T57) => T58,
   f59?: (x: T58) => T59
-): T59;
+): T59
 export function pipe<
   T0,
   T1,
@@ -3853,7 +3853,7 @@ export function pipe<
   f58?: (x: T57) => T58,
   f59?: (x: T58) => T59,
   f60?: (x: T59) => T60
-): T60;
+): T60
 export function pipe<
   T0,
   T1,
@@ -3980,7 +3980,7 @@ export function pipe<
   f59?: (x: T58) => T59,
   f60?: (x: T59) => T60,
   f61?: (x: T60) => T61
-): T61;
+): T61
 export function pipe<
   T0,
   T1,
@@ -4109,7 +4109,7 @@ export function pipe<
   f60?: (x: T59) => T60,
   f61?: (x: T60) => T61,
   f62?: (x: T61) => T62
-): T62;
+): T62
 export function pipe<
   T0,
   T1,
@@ -4240,8 +4240,8 @@ export function pipe<
   f61?: (x: T60) => T61,
   f62?: (x: T61) => T62,
   f63?: (x: T62) => T63
-): T63;
+): T63
 
 export function pipe(x: any, ...fns: any[]) {
-  return fns.reduce((y: any, fn) => fn(y), x);
+  return fns.reduce((y: any, fn) => fn(y), x)
 }
