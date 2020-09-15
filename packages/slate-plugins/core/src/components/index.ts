@@ -1,1 +1,1 @@
-export * from './EditablePlugins';
+export * from './EditablePlugins'

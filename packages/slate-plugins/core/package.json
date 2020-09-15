@@ -27,6 +27,7 @@
     "react-dom": ">=16.13.1",
     "@naripok/slate": "*",
     "@naripok/slate-hyperscript": "*",
-    "@naripok/slate-react": "*"
+    "@naripok/slate-react": "*",
+    "@naripok/slate-history": "*"
   }
 }

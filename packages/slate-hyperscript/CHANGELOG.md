@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @naripok/slate-hyperscript
 
-
-
-
-
 ## [0.58.6](https://github.com/naripok/slate/compare/@naripok/slate-hyperscript@0.58.5...@naripok/slate-hyperscript@0.58.6) (2020-09-14)
 
 **Note:** Version bump only for package @naripok/slate-hyperscript

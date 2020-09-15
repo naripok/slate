@@ -1,7 +1,6 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import * as React from 'react';
-import { useCallback } from 'react';
-import { Editable, useSlate } from '@naripok/slate-react';
+import * as React from 'react'
+import { useCallback } from 'react'
+import { Editable, useSlate } from '@naripok/slate-react'
 import {
   Decorate,
   OnDOMBeforeInput,
@@ -9,22 +8,22 @@ import {
   RenderElement,
   RenderLeaf,
   SlatePlugin,
-} from '../types';
+} from '../types'
 import {
   decoratePlugins,
   onDOMBeforeInputPlugins,
   onKeyDownPlugins,
   renderElementPlugins,
   renderLeafPlugins,
-} from '../utils';
+} from '../utils'
 
 export interface EditablePluginsProps
   extends Omit<
     React.TextareaHTMLAttributes<HTMLDivElement>,
     'value' | 'onChange' | 'onKeyDown'
   > {
-  [key: string]: any;
-  as?: React.ElementType;
+  [key: string]: any
+  as?: React.ElementType
   /**
    * Each plugin fields will be combined by role.
    *
@@ -35,7 +34,7 @@ export interface EditablePluginsProps
    * - onDOMBeforeInput
    * - onKeyDown
    */
-  plugins?: SlatePlugin[];
+  plugins?: SlatePlugin[]
   /**
    * Decorations are another type of text-level formatting.
    * They are similar to regular old custom properties,
@@ -46,39 +45,40 @@ export interface EditablePluginsProps
    * keywords, where changes to the content (or some external data) has the
    * potential to change the formatting.
    */
-  decorate?: Decorate[];
+  decorate?: Decorate[]
   // Dependencies of `decorate`
-  decorateDeps?: any[];
+  decorateDeps?: any[]
   /**
    * To customize the rendering of each element components.
    * Element properties are for contiguous, semantic elements in the document.
    */
-  renderElement?: RenderElement[];
+  renderElement?: RenderElement[]
   // Dependencies of `renderElement`
-  renderElementDeps?: any[];
+  renderElementDeps?: any[]
   /**
    * To customize the rendering of each leaf.
    * When text-level formatting is rendered, the characters are grouped into
    * "leaves" of text that each contain the same formatting applied to them.
    * Text properties are for non-contiguous, character-level formatting.
    */
-  renderLeaf?: RenderLeaf[];
+  renderLeaf?: RenderLeaf[]
   // Dependencies of `renderLeaf`
-  renderLeafDeps?: any[];
-  onDOMBeforeInput?: OnDOMBeforeInput[];
+  renderLeafDeps?: any[]
+  onDOMBeforeInput?: OnDOMBeforeInput[]
   // Dependencies of `onDOMBeforeInput`
-  onDOMBeforeInputDeps?: any[];
+  onDOMBeforeInputDeps?: any[]
   /**
    * Handlers when we press a key
    */
-  onKeyDown?: OnKeyDown[];
+  onKeyDown?: OnKeyDown[]
   // Dependencies of `onKeyDown`
-  onKeyDownDeps?: any[];
+  onKeyDownDeps?: any[]
 }
 
 /**
  * {@link Editable} with plugins support.
  */
+
 export const EditablePlugins = ({
   plugins = [],
   decorate: decorateList = [],
@@ -93,7 +93,7 @@ export const EditablePlugins = ({
   onKeyDownDeps = [],
   ...props
 }: EditablePluginsProps) => {
-  const editor = useSlate();
+  const editor = useSlate()
 
   return (
     <Editable
@@ -123,5 +123,5 @@ export const EditablePlugins = ({
       ])}
       {...props}
     />
-  );
-};
+  )
+}
