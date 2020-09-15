@@ -1,7 +1,7 @@
 {
   "name": "@naripok/slate-hyperscript",
   "description": "A hyperscript helper for creating Slate documents.",
-  "version": "0.58.6",
+  "version": "0.58.7",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "is-plain-object": "^3.0.0"
   },
   "devDependencies": {
-    "@naripok/slate": "^0.58.5"
+    "@naripok/slate": "^0.58.6"
   },
   "peerDependencies": {
     "@naripok/slate": ">=0.58.5"
