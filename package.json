@@ -2,8 +2,7 @@
   "private": true,
   "name": "@naripok/slate-packages",
   "workspaces": [
-    "packages/*",
-    "packages/slate-plugins/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "yarn build:rollup && yarn build:next",
@@ -86,6 +85,7 @@
     "@naripok/slate-history": "*",
     "@naripok/slate-hyperscript": "*",
     "@naripok/slate-react": "*",
+    "@naripok/slate-plugins": "*",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.7.2"
   }
