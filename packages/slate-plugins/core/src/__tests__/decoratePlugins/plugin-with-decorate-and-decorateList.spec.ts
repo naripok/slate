@@ -1,4 +1,4 @@
-import { NodeEntry, Point } from 'slate';
+import { NodeEntry, Point } from '@naripok/slate';
 import { Decorate } from '../../types';
 import { decoratePlugins } from '../../utils/decoratePlugins';
 

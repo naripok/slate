@@ -2,7 +2,7 @@ import React, { useState, useCallback, useMemo } from 'react'
 import { Slate, Editable, withReact } from '@naripok/slate-react'
 import { Text, Node, createEditor } from '@naripok/slate'
 import { css } from 'emotion'
-import { withHistory } from 'slate-history'
+import { withHistory } from '@naripok/slate-history'
 
 import { Icon, Toolbar } from '../components'
 
