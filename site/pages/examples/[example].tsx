@@ -26,6 +26,7 @@ import SearchHighlighting from '../../examples/search-highlighting'
 import CodeHighlighting from '../../examples/code-highlighting'
 import Tables from '../../examples/tables'
 import IFrames from '../../examples/iframe'
+import Plugins from '../../examples/plugins'
 
 // node
 import { getAllExamples } from '../api'
@@ -50,6 +51,7 @@ const EXAMPLES = [
   ['Code Highlighting', CodeHighlighting, 'code-highlighting'],
   ['Tables', Tables, 'tables'],
   ['Rendering in iframes', IFrames, 'iframe'],
+  ['Basic Plugins', Plugins, 'plugins'],
 ]
 
 const Header = props => (
